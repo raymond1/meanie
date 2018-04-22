@@ -1,0 +1,25 @@
+{
+  "name": "mean",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raymond1/meanie.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "me",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/raymond1/meanie/issues"
+  },
+  "homepage": "https://github.com/raymond1/meanie#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
