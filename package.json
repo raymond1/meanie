@@ -1,25 +1,16 @@
 {
-  "name": "mean",
-  "version": "1.0.0",
-  "description": "Test",
-  "main": "index.js",
+  "name": "meanie",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/raymond1/meanie.git"
-  },
-  "keywords": [
-    "test"
-  ],
-  "author": "me",
-  "license": "UNLICENSED",
-  "bugs": {
-    "url": "https://github.com/raymond1/meanie/issues"
-  },
-  "homepage": "https://github.com/raymond1/meanie#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11"
   }
 }
