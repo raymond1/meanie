@@ -1,1 +1,23 @@
-h1 Hi, how are you?
+extends layout
+
+block content
+  h1 Hi, how are you?
+
+  form(id='game_ratings' action='input_output' method='post')
+    label(for='name')
+      Name
+    input(name='name' id='name')
+    br
+    label(for='description')
+      Description
+    input(name='description' id='description')
+    br
+    label(for='rating')
+      Rating
+    input(name='rating' id='rating')
+    br
+    button(name='submit' type='submit' id='submit')
+      span Submit
+    br
+
+  p= test
