@@ -1,23 +1,20 @@
 extends layout
 
 block content
-  h1 Hi, how are you?
+  h1 Enter data fragment name and associated data
 
-  form(id='game_ratings' action='input_output' method='post')
-    label(for='name')
-      Name
-    input(name='name' id='name')
-    br
-    label(for='description')
-      Description
-    input(name='description' id='description')
-    br
-    label(for='rating')
-      Rating
-    input(name='rating' id='rating')
-    br
-    button(name='submit' type='submit' id='submit')
-      span Submit
-    br
+  fieldset(style='border: thick red solid;')
+    form(id='game_ratings' action='input_output' method='post')
+      label(for='name')
+        span Name
+      input(name='name' id='name')
+      br
+      label(for='data')
+        span Data
+      textarea(name='data' id='data')
+      br
+      button(name='submit' type='submit' id='submit')
+        span Submit
 
-  p= test
+  fieldset(style='border: thick red solid;')
+    button(type='button') View data fragments
