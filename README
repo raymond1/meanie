@@ -1,2 +1,2 @@
-To start the server type in npm start.
+To start the server type in npm start. The website is launched on port 4200.
 Use the command 'gulp build' to compile the website. Basically, this command runs ng build and then copies the resulting angular tags into the input_output.pug file where it is used.
